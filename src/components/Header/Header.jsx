@@ -16,7 +16,7 @@ const Header = () => {
             <img src={logo} alt="logo" />
             <div>
               <h1>Multipart</h1>
-              <p>Since 1995</p>
+              {/* <p>Since 1995</p> */}
             </div>
           </div>
             <div className='navigation'>
@@ -34,7 +34,7 @@ const Header = () => {
             </div>
 
             <div className="nav__icons">
-              <span className='fav'>
+              <span className='fav__icon'>
               <i class="ri-heart-line"></i>
               </span>
               <span className="cart__icon">

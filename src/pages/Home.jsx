@@ -6,6 +6,8 @@ import { motion } from 'framer-motion'
 import Helmet from '../components/Helmet/Helmet'
 import '../styles/home.css'
 
+import Services from '../services/Services'
+
 import { Container, Row, Col } from 'reactstrap'
 import heroImg from '../assets/images/hero-img.png'
 
@@ -34,6 +36,12 @@ const Home = () => {
           </Col>
         </Row>
       </Container>
+    </section>
+
+    <Services /> 
+
+    <section className="trending__products">
+      
     </section>
   </Helmet>
 }
